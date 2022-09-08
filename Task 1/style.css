@@ -7,6 +7,12 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
+#output {
+  text-align: center;
+  color: rgb(125, 39, 217);
+  padding-bottom: 20px;
+}
+
 /* Mobile first */
 .wrapper {
   min-height: 100vh;
