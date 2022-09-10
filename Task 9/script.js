@@ -19,7 +19,7 @@ class Movie {
 
     wasExpensive() {
         if (this.budget >= 100000000) {
-            return `The film "${this.title}", directed by ${this.director} has ${this.budget} mln USD budget`;
+            return `The film "${this.title}", directed by ${this.director} has a ${this.budget} mln USD budget`;
         } else {
             return `Sorry but "${this.title}" is not expensive enough to be in this list:)`
         }
@@ -27,7 +27,7 @@ class Movie {
 };
 
 const titanic = new Movie('Titanic', 'James Cameron', 1700000000);
-const topGun = new Movie('Top Gun', ' Joseph Kosinski', 200000000);
+const topGun = new Movie('Top Gun 2', ' Joseph Kosinski', 200000000);
 const lowBudgetMovie = new Movie('Budget Movie', 'No director', 100);
 
 console.log(titanic.wasExpensive());
