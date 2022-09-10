@@ -52,10 +52,24 @@
   color: #fff;
 }
 
-.output-cointainer #output {
+.output-cointainer {
   width: 80%;
   margin-top: 25px;
   padding: 30px;
   border-radius: 5px;
   background-color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+
+#output div {
+  background-color: lightgray;
+}
+
+#output p {
+  color: rgb(187, 48, 233);
+}
+
+#output img {
+  margin: 20px;
 }
