@@ -12,6 +12,8 @@ Pastaba: atvaizdavimas turi būti matomas pateikus formą ir pateikiamas
 const outputElement = document.getElementById('output');
 const formElement = document.getElementById('form');
 const searchElement = document.getElementById('search');
+const buttonElement = document.getElementById('submit-btn');
+
 
 formElement.addEventListener('submit', (event) => {
     event.preventDefault();

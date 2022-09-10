@@ -9,25 +9,25 @@ function Calculator(a, b) {
     this.a = a;
     this.b = b;
 
-    this.sum = function() {
+    this.sum = function(a,b) {
         return a + b;
     }
 
-    this.substraction = function() {
+    this.subtraction = function(a,b) {
         return a - b;
     }
 
-    this.multiplication = function() {
+    this.multiplication = function(a,b) {
         return a * b;
     }
 
-    this.division = function() {
+    this.division = function(a,b) {
         return a / b;
     }
 };
 
 const numbers = new Calculator();
-numbers.sum(10,5);
-numbers.substraction(10,5);
-numbers.multiplication(10,5);
-numbers.division(10,5);
+console.log(numbers.sum(10,5));
+console.log(numbers.subtraction(10,5));
+console.log(numbers.multiplication(10,5));
+console.log(numbers.division(10,5));

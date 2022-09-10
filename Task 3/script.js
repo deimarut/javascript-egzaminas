@@ -44,8 +44,4 @@ const getUsers = (userdata) => {
     divElement.appendChild(imgElement);
     
     outputElement.appendChild(divElement);
-
-    divElement.style.backgroundColor = "lightgray"; 
-    textElement.style.color = "rgb(187, 48, 233)";
-    imgElement.style.margin = "20px";
 };

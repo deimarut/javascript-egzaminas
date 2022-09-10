@@ -61,3 +61,15 @@
   text-align: center;
   font-size: 30px;
 }
+
+#output div {
+  background-color: lightgray;
+}
+
+#output p {
+  color: rgb(187, 48, 233);
+}
+
+#output img {
+  margin: 20px;
+}
