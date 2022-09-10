@@ -26,9 +26,8 @@ function Calculator(a, b) {
     }
 };
 
-const sum = new Calculator(10,5);
-
-console.log(sum.sum());
-console.log(sum.substraction());
-console.log(sum.multiplication());
-console.log(sum.division());
+const numbers = new Calculator();
+numbers.sum(10,5);
+numbers.substraction(10,5);
+numbers.multiplication(10,5);
+numbers.division(10,5);
